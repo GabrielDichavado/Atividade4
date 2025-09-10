@@ -1,0 +1,20 @@
+
+/* 
+- Estiliza parágrafos com classe destaque
+- Estiliza a div container
+- Estiliza a tabela 
+*/
+
+.destaque {
+    background-color: #fff9a6; /* fundo amarelo claro */
+    padding: 5px;
+}
+
+/* Estilo para a div container */
+.container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f0f8ff; /* azul clarinho */
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade HTML</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Atividade HTML - Estrutura Básica</h1>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Parágrafo introdutório com ID -->
+        <p id="introducao">
+            Valorant é um FPS competitivo que mistura estratégia e habilidade, e apesar de ser cheio de momentos irritantes e frustrantes, acaba se tornando viciante e impossível de largar.
+        </p>
+
+        <!-- Imagens -->
+        <h2>Imagens</h2>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTH8qfTa08Dak4Iy6-hw-6D1zmo3xHU0HhQ&s" alt="Descrição da Imagem 1" height="150">
+        <img src="https://i.pinimg.com/564x/0c/a2/66/0ca266efadb7d37c3e48b40a1d08eed4.jpg" alt="Descrição da Imagem 2" height="150">
+        <img src="https://media.tenor.com/tXGaGkSOwYwAAAAM/valorant.gif" alt="Descrição da Imagem 3 (sem width/height)" height="150">
+
+        <!-- Vídeo -->
+        <h2>Vídeo</h2>
+        <video src="video.mp4" controls width="400" poster="">
+            Seu navegador não suporta vídeos.
+        </video>
+
+        <!-- Áudio -->
+        <h2>Áudio</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <!-- Formulário -->
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Links -->
+        <h2>Links</h2>
+        <p><a href="https://www.google.com">Ir para o Google</a></p>
+        <p><a href="https://www.google.com"><img src="https://agenciapnz.com/wp-content/uploads/Logo-Google-G.png" alt="Google" width="100"></a></p>
+        <p><a href="https://www.google.com" target="_blank">Abrir Google em nova aba</a></p>
+
+        <!-- Listas -->
+        <h2>Listas</h2>
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+            <li>Passo 3</li>
+        </ol>
+
+        <h3>Lista Não Ordenada</h3>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+        <!-- Tabela -->
+        <h2>Tabela</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dado 1</td>
+                    <td>Dado 2</td>
+                    <td>Dado 3</td>
+                </tr>
+                <tr>
+                    <td>Dado 4</td>
+                    <td>Dado 5</td>
+                    <td>Dado 6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Parágrafos em destaque -->
+        <p class="destaque">Este é o primeiro parágrafo em destaque.</p>
+        <p class="destaque">Este é o segundo parágrafo em destaque.</p>
+
+        <!-- Div como contêiner -->
+        <div class="container">
+            <h3>Subtítulo dentro da div</h3>
+            <p>Este é o primeiro parágrafo dentro da div.</p>
+            <p>Este é o segundo parágrafo dentro da div.</p>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Exercício HTML</p>
+    </footer>
+</body>
+</html>
